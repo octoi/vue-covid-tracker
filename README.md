@@ -1,19 +1,18 @@
-# vue-covid-tracker
+# Vue Covid Tracker 😷🦠
+Covid 19 Tracker using Vue Js & <a href="https://covid19api.com/">covid19api.com</a>
 
-## Project setup
-```
-yarn install
-```
+Tutorial from <a href="https://youtu.be/m-MAIpnH9ag">Traversy Media</a>
 
-### Compiles and hot-reloads for development
+## Setup
+Install dependencies
+```bash
+$ npm install
+# Or yarn
+$ yarn install
 ```
-yarn serve
+Run development server
+```bash
+$ npm run serve
+# Or yarn
+$ yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
