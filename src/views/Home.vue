@@ -1,6 +1,7 @@
 <template>
   <main v-if="!loading">
     <DataTitle :dataDate="dataDate" :text="title" />
+    <DataBoxes :stats="stats" />
   </main>
 
   <main class="flex flex-col align-center justify-center text-center" v-else>
@@ -13,11 +14,13 @@
 
 <script>
 import DataTitle from "@/components/DataTitle";
+import DataBoxes from "@/components/DataBoxes";
 
 export default {
   name: "Home",
   components: {
     DataTitle,
+    DataBoxes,
   },
   data() {
     return {
